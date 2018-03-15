@@ -7,10 +7,10 @@ def checkio(data):
 	    try:
 	        if a.count(a[i])==1:
 		        continue
-            else:
-                u.append(a[i])    
-        except:
-            pass
+                else:
+                    u.append(a[i])    
+            except:
+                pass
     return(u) 
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing
