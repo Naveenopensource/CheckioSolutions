@@ -20,4 +20,8 @@ if __name__ == "__main__":
     assert list(checkio([10, 9, 10, 10, 9, 8])) == [10, 9, 10, 10, 9], "4th example"
     print("It is all good. Let's check it now")
     
-    
+For Efficient Results:
+def checkio(data):
+        return [i for i in data if data.count(i) > 1]
+
+
